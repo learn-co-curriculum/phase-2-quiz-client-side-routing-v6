@@ -1,7 +1,7 @@
 {
   "quiz": {
     "id": 52048,
-    "title": "Client-Side Routing Quiz",
+    "title": "Client-Side Routing Quiz (React Router v6)",
     "html_url": "https://learning.flatironschool.com/courses/6667/quizzes/52048",
     "mobile_url": "https://learning.flatironschool.com/courses/6667/quizzes/52048?force_user=1&persist_headless=1",
     "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-2-quiz-client-side-routing-v6\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-2-quiz-client-side-routing-v6/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 3,
-    "points_possible": 1.0,
+    "question_count": 10,
+    "points_possible": 10.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 19904,
     "show_correct_answers_last_attempt": true,
-    "version_number": 2,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -99,7 +99,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 3878,
+          "id": "3878",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! With client-side routing, we don't have to wait for a new HTML document\nand all its associated content to load whenever a user clicks a link to visit\nanother page on our site.</p>",
@@ -107,7 +107,7 @@
           "html": "<p>Speed when navigating within the application.</p>"
         },
         {
-          "id": 8799,
+          "id": "8799",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Client-side routing makes it easier to programmatically navigate a user\nto a new page on our side.</p>",
@@ -115,7 +115,7 @@
           "html": "<p>Programmatic navigation.</p>"
         },
         {
-          "id": 1530,
+          "id": "1530",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Client-side routing makes it easier to access data from the URL using\nJavaScript, so we can conditionally render different components based on the\nURL.</p>",
@@ -123,7 +123,7 @@
           "html": "<p>Conditionally rendering components based on the URL.</p>"
         },
         {
-          "id": 8640,
+          "id": "8640",
           "text": "",
           "comments": "",
           "comments_html": "<p>Because there are typically less requests made to the server in client-side\nrouting, this can make it more challenging to set up analytic tools to track\ndata (like page views) from our routes.</p>",
@@ -131,7 +131,7 @@
           "html": "<p>Easier for analytical tools to track page views.</p>"
         },
         {
-          "id": 5711,
+          "id": "5711",
           "text": "",
           "comments": "",
           "comments_html": "<p>Client-side routing has a longer initial page load, because it loads\neverything at the beginning, as opposed to when a route is requested.</p>",
@@ -139,7 +139,7 @@
           "html": "<p>Faster initial page load.</p>"
         },
         {
-          "id": 1660,
+          "id": "1660",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -268,7 +268,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li><li><a href=\"/courses/6667/pages/nested-routing-code-along\">Nested Routing Code-Along</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6867,
+          "id": "6867",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! The <code>path</code> key defines the endpoint of a specific route.</p>",
@@ -276,7 +276,7 @@
           "html": "<p>path</p>"
         },
         {
-          "id": 4900,
+          "id": "4900",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! The <code>element</code> key specifies which component should be rendered on\nthat route.</p>",
@@ -284,7 +284,7 @@
           "html": "<p>element</p>"
         },
         {
-          "id": 8001,
+          "id": "8001",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! The <code>children</code> key specifies components that should be rendered as\nnested routes.</p>",
@@ -292,7 +292,7 @@
           "html": "<p>children</p>"
         },
         {
-          "id": 9152,
+          "id": "9152",
           "text": "",
           "comments": "",
           "comments_html": "<p>Close! The correct key name is <code>errorElement</code>.</p>",
@@ -300,7 +300,7 @@
           "html": "<p>error</p>"
         },
         {
-          "id": 4293,
+          "id": "4293",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -308,7 +308,7 @@
           "html": "<p>target</p>"
         },
         {
-          "id": 4801,
+          "id": "4801",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -316,7 +316,7 @@
           "html": "<p>params</p>"
         },
         {
-          "id": 7433,
+          "id": "7433",
           "text": "",
           "comments": "",
           "comments_html": "",
@@ -502,14 +502,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-router-code-along\">React Router Code-Along</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2636,
+          "id": "2636",
           "text": "createBrowserRouter",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 5988,
+          "id": "5988",
           "text": "createBrowserRouter()",
           "comments": "",
           "comments_html": "",
@@ -541,14 +541,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-router-code-along\">React Router Code-Along</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4630,
+          "id": "4630",
           "text": "useParams",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6492,
+          "id": "6492",
           "text": "useParams()",
           "comments": "",
           "comments_html": "",
@@ -580,56 +580,56 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2172,
+          "id": "2172",
           "text": "Client-Side Routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1750,
+          "id": "1750",
           "text": "Client-Side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 4129,
+          "id": "4129",
           "text": "Client-side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 8567,
+          "id": "8567",
           "text": "client-side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 9760,
+          "id": "9760",
           "text": "Client Side Routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 6712,
+          "id": "6712",
           "text": "Client Side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 8451,
+          "id": "8451",
           "text": "Client side routing",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 839,
+          "id": "839",
           "text": "client side routing",
           "comments": "",
           "comments_html": "",
