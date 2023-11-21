@@ -1,10 +1,10 @@
 ---
-id: 52048
-course_id: 6667
+id: 53473
+course_id: 7553
 repo: phase-2-quiz-client-side-routing-v6
 ---
 
-# Client-Side Routing Quiz (React Router v6)
+# Client-Side Routing Quiz
 
 It's time to check your knowledge! Use this quiz to create a custom study guide.
 Note any answers that were marked incorrect, so you can study the relevant
