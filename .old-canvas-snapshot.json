@@ -1,0 +1,647 @@
+{
+  "quiz": {
+    "id": 52048,
+    "title": "Client-Side Routing Quiz (React Router v6)",
+    "html_url": "https://learning.flatironschool.com/courses/6667/quizzes/52048",
+    "mobile_url": "https://learning.flatironschool.com/courses/6667/quizzes/52048?force_user=1&persist_headless=1",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-2-quiz-client-side-routing-v6\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-2-quiz-client-side-routing-v6/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 10,
+    "points_possible": 10.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_52048"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": null,
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/52048/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/52048/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/52048/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/6667/quizzes/52048/submission_versions",
+    "assignment_id": 259451,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 19904,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 3,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": null,
+    "in_paced_course": false,
+    "question_types": [
+
+    ]
+  },
+  "questions": [
+    {
+      "id": 356555,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608839,
+      "position": null,
+      "question_name": "Client-Side Routing",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>What are the benefits of client-side routing? (Select all that apply)</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": "3878",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! With client-side routing, we don't have to wait for a new HTML document\nand all its associated content to load whenever a user clicks a link to visit\nanother page on our site.</p>",
+          "weight": 100.0,
+          "html": "<p>Speed when navigating within the application.</p>"
+        },
+        {
+          "id": "8799",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! Client-side routing makes it easier to programmatically navigate a user\nto a new page on our side.</p>",
+          "weight": 100.0,
+          "html": "<p>Programmatic navigation.</p>"
+        },
+        {
+          "id": "1530",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! Client-side routing makes it easier to access data from the URL using\nJavaScript, so we can conditionally render different components based on the\nURL.</p>",
+          "weight": 100.0,
+          "html": "<p>Conditionally rendering components based on the URL.</p>"
+        },
+        {
+          "id": "8640",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Because there are typically less requests made to the server in client-side\nrouting, this can make it more challenging to set up analytic tools to track\ndata (like page views) from our routes.</p>",
+          "weight": 0.0,
+          "html": "<p>Easier for analytical tools to track page views.</p>"
+        },
+        {
+          "id": "5711",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Client-side routing has a longer initial page load, because it loads\neverything at the beginning, as opposed to when a route is requested.</p>",
+          "weight": 0.0,
+          "html": "<p>Faster initial page load.</p>"
+        },
+        {
+          "id": "1660",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356556,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608840,
+      "position": null,
+      "question_name": "URL Parameters",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which hook should we use to access the dynamic pieces of a URL?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-router-code-along\">React Router Code-Along</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 9770,
+          "text": "",
+          "html": "<p><code>useParams</code></p>",
+          "comments": "",
+          "comments_html": "<p>Correct! The <a href=\"https://reactrouter.com/en/main/hooks/use-params\"><code>useParams</code> hook</a>\nreturns a key/value pair of parameters taken from the current URL.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 6200,
+          "text": "",
+          "html": "<p><code>useNavigate</code></p>",
+          "comments": "",
+          "comments_html": "<p>The <a href=\"https://reactrouter.com/en/main/hooks/use-navigate\"><code>useNavigate</code> hook</a>\nreturns a function that can be used for <em>programmatic navigation</em>.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 9870,
+          "text": "",
+          "html": "<p><code>useState</code></p>",
+          "comments": "",
+          "comments_html": "<p>We use the <a href=\"https://react.dev/reference/react/useState\">useState</a> hook to\nreturn a stateful value, and a function to update it.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 4669,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356557,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608841,
+      "position": null,
+      "question_name": "URL Params",
+      "question_type": "true_false_question",
+      "question_text": "<p>The <code>useParams</code> hook allows a component to access data based on the dynamic\nportion of the URL, such as <code>/dogs/:id</code>.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-router-code-along\">React Router Code-Along</a></li></ul><p></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "True",
+          "weight": 100,
+          "id": 8423
+        },
+        {
+          "comments": "",
+          "comments_html": "",
+          "text": "False",
+          "weight": 0,
+          "id": 1091
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356558,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608842,
+      "position": null,
+      "question_name": "Client-Side Routing",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Which of the following are keys in a route object? (Select all that apply)</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li><li><a href=\"/courses/6667/pages/nested-routing-code-along\">Nested Routing Code-Along</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": "6867",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! The <code>path</code> key defines the endpoint of a specific route.</p>",
+          "weight": 100.0,
+          "html": "<p>path</p>"
+        },
+        {
+          "id": "4900",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! The <code>element</code> key specifies which component should be rendered on\nthat route.</p>",
+          "weight": 100.0,
+          "html": "<p>element</p>"
+        },
+        {
+          "id": "8001",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! The <code>children</code> key specifies components that should be rendered as\nnested routes.</p>",
+          "weight": 100.0,
+          "html": "<p>children</p>"
+        },
+        {
+          "id": "9152",
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Close! The correct key name is <code>errorElement</code>.</p>",
+          "weight": 0.0,
+          "html": "<p>error</p>"
+        },
+        {
+          "id": "4293",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>target</p>"
+        },
+        {
+          "id": "4801",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>params</p>"
+        },
+        {
+          "id": "7433",
+          "text": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0,
+          "html": "<p>I don't know.</p>"
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356559,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608843,
+      "position": null,
+      "question_name": "Client-Side Routing",
+      "question_type": "true_false_question",
+      "question_text": "<p>Server-side routing is when the route is handled by the JavaScript that is\nloaded on the page.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
+      "answers": [
+        {
+          "comments": "",
+          "comments_html": "<p>Server-side routing is when a route requests a new page or data from the\nserver.</p>\n\n<p>With <em>client-side</em> routing, the routing is the responsibility of the\nclient-side JavaScript code.</p>",
+          "text": "True",
+          "weight": 0,
+          "id": 6302
+        },
+        {
+          "comments": "",
+          "comments_html": "<p>Correct! Server-side routing happens when a route requests a new page or data\nfrom the server.</p>\n\n<p>With <em>client-side</em> routing, the routing is the responsibility of the\nclient-side JavaScript code.</p>",
+          "text": "False",
+          "weight": 100,
+          "id": 246
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356560,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608844,
+      "position": null,
+      "question_name": "Programmatic Navigation",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>We use ______ to change the browser's URL and show the user a new page in\nour application without making the user click on a link.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/programmatic-navigation\">Programmatic Navigation</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 838,
+          "text": "",
+          "html": "<p>Programmatic Navigation</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Programmatic Navigation is useful when you want a user to be shown a\nnew page on your site following some action other than clicking a link. For\nexample, we could use programmatic navigation to show a new page after they've\nsubmitted a form.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 5171,
+          "text": "",
+          "html": "<p>Dynamic Routing</p>",
+          "comments": "",
+          "comments_html": "<p>We use dynamic routing to control which component is rendered based on the\ncurrent URL.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 1159,
+          "text": "",
+          "html": "<p>Client-Side Routing</p>",
+          "comments": "",
+          "comments_html": "<p>This answer is partly correct — the navigation described is a <em>type</em> of\nclient-side routing in JavaScript — but <em>programmatic navigation</em> specifically\ndescribes navigation that does not require the user to click a link.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 2784,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356561,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608845,
+      "position": null,
+      "question_name": "Programmatic Navigation",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Which hook gives us the ability to programmatically navigate the user to a new\npage in our application?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/programmatic-navigation\">Programmatic Navigation</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 8814,
+          "text": "",
+          "html": "<p><code>useNavigate</code></p>",
+          "comments": "",
+          "comments_html": "<p>Correct! We invoke the\n<a href=\"https://reactrouter.com/en/main/hooks/use-navigate\"><code>useNavigate</code></a> hook and\naccess the function it returns to programmatically navigate users to whichever\nroute we specify.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 5489,
+          "text": "",
+          "html": "<p><code>useParams</code></p>",
+          "comments": "",
+          "comments_html": "<p>We use the <a href=\"https://reactrouter.com/en/main/hooks/use-params\"><code>useParams</code></a> hook\nto get the dynamic <code>params</code> from the URL.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 1503,
+          "text": "",
+          "html": "<p><code>useState</code></p>",
+          "comments": "",
+          "comments_html": "<p>We use the <a href=\"https://react.dev/reference/react/useState\">useState</a> hook to return\na stateful value, and a function to update it.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3095,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356562,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608846,
+      "position": null,
+      "question_name": "React Router: Components",
+      "question_type": "short_answer_question",
+      "question_text": "<p>The ______ function accepts an array of route objects as its argument and\nreturns the router that powers client-side routing in a React application.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-router-code-along\">React Router Code-Along</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": "2636",
+          "text": "createBrowserRouter",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "5988",
+          "text": "createBrowserRouter()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356563,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608847,
+      "position": null,
+      "question_name": "URL Params",
+      "question_type": "short_answer_question",
+      "question_text": "<p>The _____ hook returns an object of key/value pairs of URL parameters.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/react-router-code-along\">React Router Code-Along</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": "4630",
+          "text": "useParams",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6492",
+          "text": "useParams()",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 356564,
+      "quiz_id": 52048,
+      "quiz_group_id": null,
+      "assessment_question_id": 608848,
+      "position": null,
+      "question_name": "Client-Side Routing",
+      "question_type": "short_answer_question",
+      "question_text": "<p>______ is the process of handling all the routing logic with JavaScript,\nwithout making any additional GET requests for some new HTML document.</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/introduction-to-client-side-routing\">Introduction to Client-Side Routing</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": "2172",
+          "text": "Client-Side Routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "1750",
+          "text": "Client-Side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "4129",
+          "text": "Client-side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "8567",
+          "text": "client-side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "9760",
+          "text": "Client Side Routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "6712",
+          "text": "Client Side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "8451",
+          "text": "Client side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        },
+        {
+          "id": "839",
+          "text": "client side routing",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
